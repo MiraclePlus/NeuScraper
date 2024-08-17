@@ -22,6 +22,7 @@ requires = parse_requirements("requirements.txt")
 setup(
     name="neu_scraper",
     version="0.1",
+    packages=["neu_scraper"],
     install_requires=requires,
     python_requires=">=3.9.7",
     zip_safe=False,
